@@ -8,7 +8,7 @@ install:
 
 script:
 
-  - !python -m unittest test.py
+  - unittest test.py
   - coverage run test.py
 
 after_success:
