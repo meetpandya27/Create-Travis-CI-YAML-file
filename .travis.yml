@@ -9,6 +9,7 @@ install:
 script:
 
   - python hello.py
+  - coverage run hello.py
 
 after_success:
   - coverage xml
