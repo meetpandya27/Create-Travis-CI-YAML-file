@@ -9,4 +9,5 @@ script:
   - python hello.py
 
 after_success:
+  - coverage xml
   - bash <(curl -s https://codecov.io/bash)
