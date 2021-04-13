@@ -8,8 +8,8 @@ install:
 
 script:
 
-  - python hello.py
-  - coverage run hello.py
+  - python test.py
+  - coverage run test.py
 
 after_success:
   - coverage xml
