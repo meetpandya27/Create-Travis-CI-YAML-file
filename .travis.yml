@@ -8,7 +8,7 @@ install:
 
 script:
 
-  - python test.py
+  - python -m unittest test_volume_cuboid.py
   - coverage run test.py
 
 after_success:
