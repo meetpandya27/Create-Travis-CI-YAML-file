@@ -1,7 +1,7 @@
 from volume import *
 import unittest
 
-class Test(unittest.TestCase):
+class TestCuboid (unittest.TestCase):
     def test_volume(self):
         self.assertAlmostEqual(volume(2),8)
         self.assertAlmostEqual(volume(1),1)
